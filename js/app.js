@@ -24,7 +24,7 @@ $(document).ready(function() {
     }
 
     setTimeout(function() {
-        loadGrammar("scifi");
+        loadGrammar("graphicscorebot");
 
     }, 10);
 
