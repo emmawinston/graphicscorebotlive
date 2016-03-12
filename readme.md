@@ -1,90 +1,20 @@
-# Welcome to Tracery!
+# Graphic Score Bot Live
 
-## A text-expansion library
+## A score generator for experimental musicians (and anyone else)
 
-There are many new examples of Tracery [in use](http://www.crystalcodepalace.com/tracery.html "Examples")
-I also have an exciting new *interactive* [tutorial](http://www.crystalcodepalace.com/traceryTut.html "Tutorial")
+This is a direct fork of Kate Compton's Tracery repo and sample web app, because my JavaScript is absolutely horrible and I need to get this up and running ASAP!
 
-I strongly recommend using the [minified library](https://github.com/galaxykate/tracery/blob/master/js/tracery.min.js "Minified")
+Graphic Score Bot was born from a [Twitter bot](http://twitter.com/graphicscorebot) which remains live. It will be used as a kind of robot musical director for a live performer at Abandon Normal Devices' 'Art of Bots' show in April. I am attempting to set up a web app which will be able to generate full scores on demand for live use.
 
-### Write grammar objects, get generative stories
+To be added in the next few weeks: 
 
-#### An example grammar
-```
-{
-	"name": ["Arjun","Yuuma","Darcy","Mia","Chiaki","Izzi","Azra","Lina"],
-	"animal": ["unicorn","raven","sparrow","scorpion","coyote","eagle","owl","lizard","zebra","duck","kitten"],
-	"mood": ["vexed","indignant","impassioned","wistful","astute","courteous"],
-	"story": ["#hero# traveled with her pet #heroPet#.  #hero# was never #mood#, for the #heroPet# was always too #mood#."],
-	"origin": ["#[hero:#name#][heroPet:#animal#]story#"]
-}
-```
+* Occasional clefs (treble and bass) 
+* Dynamics, stage directions
+* Colour schemes/other limitations to be chosen by the performer
+* Selections from Brian Eno's Oblique Strategies
+* Random scribbles as in the original bot
+* More 'note-like' forms than the current simple shapes
+* POSSIBLY a 16-step drum machine either to be played live by the computer or simply scored and programmed into a sequencer by the performer
 
-#### Output of that grammar.
-Of course, many grammars are more complex!
-```
-Lina traveled with her pet duck. Lina was never indignant, for the duck was always too indignant.
-Yuuma traveled with her pet unicorn. Yuuma was never wistful, for the unicorn was always too indignant.
-Azra traveled with her pet coyote. Azra was never wistful, for the coyote was always too impassioned.
-Yuuma traveled with her pet owl. Yuuma was never wistful, for the owl was always too courteous.
-Azra traveled with her pet zebra. Azra was never impassioned, for the zebra was always too astute.
-```
-
-### How to use Tracery as a broswer library
-
-Import tracery
-`<script defer src="js/libs/tracery.js"></script>`
-
-Use the `tracery` object to create a `Grammar` object from a source object (specification below)
-`tracery.createGrammar(spellbook);`
-
-The grammar can create `Trace` objects.  A `Trace` is one possible expansion of a grammar.
-`var trace = app.grammar.createTrace();`
-
-The trace can be expanded into a tree structure, step by step, or all at once.
-`trace.expand();`
-Once expanded, the trace can create a 'flattened' version of itself: a single string of text.
-var myString = trace.flatten();
-
-Or the grammar can generate a trace and flatten it, all in one step
-`var myTitle = app.grammar.createFlattened()`
-
-Traces will start their expansions with the 'origin' symbol by default, but you can also create one from a rule (see "Rule Syntax" below), or from a symbol
-`var trace = app.grammar.createTrace("A story about #character#");`
-`var trace = app.grammar.createTraceFromSymbol("bookTitle");`
-
-Many traces can be working on a single grammar at the same time, without getting in each others way.
-
-### How to use Tracery as a Node.js library
-
-Use this Node library created by George Buckenham: https://github.com/v21/tracery
-
-## Input
-
-### Syntax overview
-####  Grammar
-A grammar is a key-value storage system for rules.
-
-####  Rule syntax
-Each symbol should be followed by an array of text strings representing rules
-```
-  "emotion" : ["happy", "sad", "proud"],
-```
-or, if you're writing a long string of single words, you can use 'split'
-```
-  "emotion" : "happy sad reflective morose proud".split(" "),
-```
-
-Rules can also contain expansion symbols, words surrounded by #'s:
-```
-mainCharacter: ["Brittany the Wombat"],
-story : ["This is a story about #mainCharacter#"]
-```
-
-Expansion symbols can have modifiers.  Modifiers can change something about the string expansion of that symbol.
- `#animal.capitalize#` or `#animal.a#` or `#animal.s#`
-```
-name: ["Brittany"],
-animal: ["wombat"],
-story : ["This is a story about #name# the #animal.capitalize#"]
-```
+Particular thanks to Kate Compton and George Buckenham for advice, resources, help with Cheap Bots Done Quick and Tracery, and borrowed code.
+ 
