@@ -39,13 +39,13 @@ response:[" <p>The #description# #scType# looked at him with interest.  'I'm #sc
         "#choicesandstrategies#"
     ],
     "choicesandstrategies": [
-        "#preface##staff##clefs##group-path##lines##circles##circles##circles##circles##circles##circles##circles##circles##rectangles##rectangles##rectangles##rectangles##rectangles##rectangles##rectangles##rectangles##ending#",
-        "#preface##staff##clefs##group-path##lines##circles##circles##circles##circles##circles##circles##circles##circles##ending#",
-        "#preface##staff##clefs##group-path##lines##rectangles##rectangles##rectangles##rectangles##rectangles##rectangles##rectangles##rectangles##ending#",
-        "#preface##staff##clefs##circles##circles##circles##circles##circles##circles##circles##circles##rectangles##rectangles##rectangles##rectangles##rectangles##rectangles##rectangles##rectangles##ending#",
-        "#preface##staff##clefs##circles##circles##circles##circles##circles##circles##circles##circles##ending#",
-        "#preface##staff##clefs##rectangles##rectangles##rectangles##rectangles##rectangles##rectangles##rectangles##rectangles##ending#",
-        "#preface##staff##clefs##group-path##lines##ending#"
+        "#preface##staff##group-path##lines##circles##circles##circles##circles##circles##circles##circles##circles##rectangles##rectangles##rectangles##rectangles##rectangles##rectangles##rectangles##rectangles##ending#",
+        "#preface##staff##group-path##lines##circles##circles##circles##circles##circles##circles##circles##circles##ending#",
+        "#preface##staff##group-path##lines##rectangles##rectangles##rectangles##rectangles##rectangles##rectangles##rectangles##rectangles##ending#",
+        "#preface##staff##circles##circles##circles##circles##circles##circles##circles##circles##rectangles##rectangles##rectangles##rectangles##rectangles##rectangles##rectangles##rectangles##ending#",
+        "#preface##staff##circles##circles##circles##circles##circles##circles##circles##circles##ending#",
+        "#preface##staff##rectangles##rectangles##rectangles##rectangles##rectangles##rectangles##rectangles##rectangles##ending#",
+        "#preface##staff##group-path##lines##ending#"
     ],
 
 "preface":"<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" height=\"#baseh#\" width=\"#basew#\">",
@@ -157,6 +157,12 @@ response:[" <p>The #description# #scType# looked at him with interest.  'I'm #sc
         "30"
     ],
 
+"lines":["#line1#", "#line2#"], 
+
+    "line1":["<polyline points=\"0 #heights#, #widths# #heights#, #widths# #heights#, #widths# #heights#\" stroke-dasharray=\"#dasharrays#\" style=\"fill:none;stroke:#linecolor#;stroke-width:20;\" stroke-opacity=\"#opacity#\"   />"],
+
+    "line2":["<path d=\"M 0 #base #digit# q #whichdigitcurve# #whichdigitcurve# #whichdigitcurve# #whichdigitcurve# q #whichdigitcurve# #whichdigitcurve# #whichdigitcurve# #whichdigitcurve# q #whichdigitcurve# #whichdigitcurve# 40 1 \" stroke-dasharray=\"#dasharrays#\" style=\"fill:none;stroke:#linecolor#;stroke-width:#range#;\" stroke-opacity=\"#strokeopacity#\"  />"],
+
 
 "group-path":["<path d=\"M #basew200# #baseh# L 0 #basew200# L -30 1#digit##digit# #curvepoints#  M #basew200# #baseh# Z\"  fill=\"none\"  stroke=\"#linecolor#\"  stroke-dasharray=\"#dasharrays#\"  stroke-width=\"#strokewidth#\"></path>",
 "<path d=\"M #basew200# #baseh# L #basew200# #baseh# L #basew200# 1#digit##digit# #curvepoints_r#  M 0 #baseh# Z\"  fill=\"none\"  stroke=\"#linecolor#\"  stroke-dasharray=\"#dasharrays#\"  stroke-width=\"#strokewidth#\"></path>"
@@ -174,6 +180,7 @@ response:[" <p>The #description# #scType# looked at him with interest.  'I'm #sc
 
 "digit":["0","1","2","3","4","5","6","7","8","9"],
     "digittens":["1","2","3","4","5","6","7","8","9"],
+    "digithundreds":["1","2","3","4","5","6","7","8","9"],
     "0-1":["0","1"],
     "1-2":["1","2"],
     "0-2":["0","1","2"],
@@ -184,6 +191,8 @@ response:[" <p>The #description# #scType# looked at him with interest.  'I'm #sc
     "4-9":["4","5","6","7","8","9"],
     "hexdigit":["0","1","2","3","4","5","6","7","8","9","a","b","c","d","e","f"],
     "highhex":["a","b","c","d","e","f"],
+
+    "strokestyle":["miter","round","bevel"],
 
 "percentages":[
     "5%",
@@ -207,6 +216,92 @@ response:[" <p>The #description# #scType# looked at him with interest.  'I'm #sc
     "85%",
     "90%",
     "95%"
+],
+
+"widths":[
+    "00",
+    "05",
+    "10",
+    "15",
+    "20",
+    "25",
+    "30",
+    "35",
+    "40",
+    "45",
+    "50",
+    "55",
+    "60",
+    "65",
+    "70",
+    "75",
+    "80",
+    "85",
+    "90",
+    "95",
+    "#digithundreds#00",
+    "#digithundreds#05",
+    "#digithundreds##digithundreds#10",
+    "#digithundreds#15",
+    "#digithundreds##digithundreds#20",
+    "#digithundreds#25",
+    "#digithundreds#30",
+    "#digithundreds#35",
+    "#digithundreds#40",
+    "#digithundreds#45",
+    "#digithundreds#50",
+    "#digithundreds#55",
+    "#digithundreds#60",
+    "#digithundreds#65",
+    "#digithundreds#70",
+    "#digithundreds#75",
+    "#digithundreds#80",
+    "#digithundreds#85",
+    "#digithundreds#90",
+    "#digithundreds#95",
+    "1#0-2#00",
+    "1#0-2#05",
+    "1#0-2#10",
+    "1#0-2#15",
+    "1#0-2#20",
+    "1#0-2#25",
+    "1#0-2#30",
+    "1#0-2#35",
+    "1#0-2#40",
+    "1#0-2#45",
+    "1#0-2#50",
+    "1#0-2#55",
+    "1#0-2#60",
+    "1#0-2#65",
+    "1#0-2#70",
+    "1#0-2#75",
+    "1#0-2#80",
+    "1#0-2#85",
+    "1#0-2#90",
+    "1#0-2#95"
+],
+
+"heights": [
+    "#0-4#00",
+    "#0-4#05",
+    "#0-4#10",
+    "#0-4#15",
+    "#0-4#20",
+    "#0-4#25",
+    "#0-4#30",
+    "#0-4#35",
+    "#0-4#40",
+    "#0-4#45",
+    "#0-4#50",
+    "#0-4#55",
+    "#0-4#60",
+    "#0-4#65",
+    "#0-4#70",
+    "#0-4#75",
+    "#0-4#80",
+    "#0-4#85",
+    "#0-4#90",
+    "#0-4#95"
 ],
 
     "curvepoint":"q #dist_half# #h_rel_half# #dist# #h_rel#",
