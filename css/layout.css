@@ -13,6 +13,7 @@
 		margin: 10px;
 	padding: 5px;
 	background-color: rgba(250, 250, 255, 0);
+	font-size: 30px;
 }
 
 #content {
@@ -30,3 +31,4 @@
 	margin: 10px;
 	background-color: rgb(200, 230, 255);
 }
+
