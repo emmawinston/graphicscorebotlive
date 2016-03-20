@@ -8,12 +8,12 @@ Graphic Score Bot was born from a [Twitter bot](http://twitter.com/graphicscoreb
 
 To be added in the next few weeks: 
 
-* Occasional clefs (treble and bass) 
-* Dynamics, stage directions
-* Colour schemes/other limitations to be chosen by the performer
-* Selections from Brian Eno's Oblique Strategies
+* Occasional clefs (treble and bass) DONE
 * Random scribbles as in the original bot DONE
 * More 'note-like' forms than the current simple shapes DONE
+* Dynamics, stage directions DONE
+* Colour schemes/other limitations to be chosen by the performer IN PROGRESS
+* Selections from Brian Eno's Oblique Strategies IN PROGRESS
 * POSSIBLY a 16-step drum machine either to be played live by the computer or simply scored and programmed into a sequencer by the performer
 
 Particular thanks to Kate Compton and George Buckenham for advice, resources, help with Cheap Bots Done Quick and Tracery, and borrowed code.
