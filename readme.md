@@ -12,8 +12,9 @@ To be added in the next few weeks:
 * Random scribbles as in the original bot DONE
 * More 'note-like' forms than the current simple shapes DONE
 * Dynamics, stage directions DONE
-* Colour schemes/other limitations to be chosen by the performer IN PROGRESS
-* Selections from Brian Eno's Oblique Strategies IN PROGRESS
+* Colour schemes/other limitations to be chosen by the performer DONE
+* Selections from Brian Eno's Oblique Strategies DONE
+* Slideshow system with random durations
 * POSSIBLY a 16-step drum machine either to be played live by the computer or simply scored and programmed into a sequencer by the performer
 
 Particular thanks to Kate Compton and George Buckenham for advice, resources, help with Cheap Bots Done Quick and Tracery, and borrowed code.
