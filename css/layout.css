@@ -4,9 +4,7 @@
 }
 
 #content {
-	margin: 40px;
-	float: left;
-	width: 90%;
+	width: 100%;
 }
 
 .outputSample {
@@ -14,14 +12,17 @@
 	padding: 5px;
 	background-color: rgba(250, 250, 255, 0);
 	font-size: 30px;
+	width: 45%;
 }
 
 #content {
 	width: 90%;
+	margin: 0 auto;
 }
 
 #output {
-	margin: 10px;
+	margin: 10px auto;
+	width: 100%;
 	padding: 5px;
 	background-color: rgba(0, 0, 0, 0.1);
 }
@@ -31,4 +32,3 @@
 	margin: 10px;
 	background-color: rgb(200, 230, 255);
 }
-
