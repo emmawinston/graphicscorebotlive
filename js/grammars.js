@@ -102,6 +102,10 @@ var grammars = {
     ],
 
 "strokewidth": [
+        "3",
+        "4",
+        "5",
+        "6",
         "7",        
         "8",
         "9",
@@ -129,8 +133,8 @@ var grammars = {
     ],
 
 
-"group-path":["<path d=\"M #basew200# #baseh# L 0 #basew200# L -30 1#digit##digit# #curvepoints#  M #basew200# #baseh# Z\"  fill=\"none\"  stroke=\"#linecolor#\"  stroke-dasharray=\"#dasharrays#\"  stroke-width=\"#strokewidth#\"></path>",
-"<path d=\"M #basew200# #baseh# L #basew200# #baseh# L #basew200# 1#digit##digit# #curvepoints_r#  M 0 #baseh# Z\"  fill=\"none\"  stroke=\"#linecolor#\"  stroke-dasharray=\"#dasharrays#\"  stroke-width=\"#strokewidth#\"></path>"
+"group-path":["<path d=\"M #basew200# #baseh# L 0 #basew200# L -30 1#digit##digit# #curvepoints#  M #basew200# #baseh# Z\"  fill=\"none\"  stroke=\"#color#\"  stroke-dasharray=\"#dasharrays#\"  stroke-width=\"#strokewidth#\"></path>",
+"<path d=\"M #basew200# #baseh# L #basew200# #baseh# L #basew200# 1#digit##digit# #curvepoints_r#  M 0 #baseh# Z\"  fill=\"none\"  stroke=\"#color#\"  stroke-dasharray=\"#dasharrays#\"  stroke-width=\"#strokewidth#\"></path>"
 ],
 
     "curvepoints":["#curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint#"],
@@ -274,9 +278,9 @@ var grammars = {
 
 "lines":["#line1#, #line2#"], 
 
-"line1":["<polyline points=\"#widths# #heights#, #widths# #heights#, #widths# #heights#, #widths# #heights#\" stroke-dasharray=\"#dasharrays#\" style=\"fill:none;stroke:#linecolor#;stroke-width:20;\" stroke-opacity=\"#opacity#\"   />"],
+"line1":["<polyline points=\"#widths# #heights#, #widths# #heights#, #widths# #heights#, #widths# #heights#\" stroke-dasharray=\"#dasharrays#\" style=\"fill:none;stroke:#color#;stroke-width:20;\" stroke-opacity=\"#opacity#\"   />"],
 
-"line2":["<path d=\"M #widths# #heights# q #widths# #heights# #widths# #heights# #widths# #heights# #widths# #heights# #widths# #heights# #widths# #heights# q #widths# #heights# #widths# #heights# #widths# #heights# #widths# #heights# #widths# #heights# #widths# #heights# q #widths# #heights# #widths# #heights# #widths# #heights# #widths# #heights# #widths# #heights# #widths# #heights# #widths# #heights# #widths# #heights# 400 100 \" stroke-dasharray=\"#dasharrays#\" style=\"fill:none;stroke:#linecolor#;stroke-width:4;\" stroke-opacity=\"#strokeopacity#\"  />"],
+"line2":["<path d=\"M #widths# #heights# q #widths# #heights# #widths# #heights# #widths# #heights# #widths# #heights# #widths# #heights# #widths# #heights# q #widths# #heights# #widths# #heights# #widths# #heights# #widths# #heights# #widths# #heights# #widths# #heights# q #widths# #heights# #widths# #heights# #widths# #heights# #widths# #heights# #widths# #heights# #widths# #heights# #widths# #heights# #widths# #heights# 400 100 \" stroke-dasharray=\"#dasharrays#\" style=\"fill:none;stroke:#color#;stroke-width:4;\" stroke-opacity=\"#strokeopacity#\"  />"],
 
 
 "curvepoint":"q #dist_half# #h_rel_half# #dist# #h_rel#",
@@ -342,15 +346,6 @@ graphicscorebotbw: {
         "black"
     ],
     "linecolor": [
-        "cyan",
-        "yellow",
-        "orange",
-        "gray",
-        "red",
-        "purple",
-        "hotpink",
-        "dodgerblue",
-        "forestgreen",
         "black"
     ],
     "opacity": [
@@ -387,6 +382,10 @@ graphicscorebotbw: {
     ],
 
 "strokewidth": [
+        "3",
+        "4",
+        "5",
+        "6",
         "7",        
         "8",
         "9",
@@ -414,8 +413,8 @@ graphicscorebotbw: {
     ],
 
 
-"group-path":["<path d=\"M #basew200# #baseh# L 0 #basew200# L -30 1#digit##digit# #curvepoints#  M #basew200# #baseh# Z\"  fill=\"none\"  stroke=\"#linecolor#\"  stroke-dasharray=\"#dasharrays#\"  stroke-width=\"#strokewidth#\"></path>",
-"<path d=\"M #basew200# #baseh# L #basew200# #baseh# L #basew200# 1#digit##digit# #curvepoints_r#  M 0 #baseh# Z\"  fill=\"none\"  stroke=\"#linecolor#\"  stroke-dasharray=\"#dasharrays#\"  stroke-width=\"#strokewidth#\"></path>"
+"group-path":["<path d=\"M #basew200# #baseh# L 0 #basew200# L -30 1#digit##digit# #curvepoints#  M #basew200# #baseh# Z\"  fill=\"none\"  stroke=\"#color#\"  stroke-dasharray=\"#dasharrays#\"  stroke-width=\"#strokewidth#\"></path>",
+"<path d=\"M #basew200# #baseh# L #basew200# #baseh# L #basew200# 1#digit##digit# #curvepoints_r#  M 0 #baseh# Z\"  fill=\"none\"  stroke=\"#color#\"  stroke-dasharray=\"#dasharrays#\"  stroke-width=\"#strokewidth#\"></path>"
 ],
 
     "curvepoints":["#curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint#"],
@@ -559,9 +558,9 @@ graphicscorebotbw: {
 
 "lines":["#line1#, #line2#"], 
 
-"line1":["<polyline points=\"#widths# #heights#, #widths# #heights#, #widths# #heights#, #widths# #heights#\" stroke-dasharray=\"#dasharrays#\" style=\"fill:none;stroke:#linecolor#;stroke-width:20;\" stroke-opacity=\"#opacity#\"   />"],
+"line1":["<polyline points=\"#widths# #heights#, #widths# #heights#, #widths# #heights#, #widths# #heights#\" stroke-dasharray=\"#dasharrays#\" style=\"fill:none;stroke:#color#;stroke-width:20;\" stroke-opacity=\"#opacity#\"   />"],
 
-"line2":["<path d=\"M #widths# #heights# q #widths# #heights# #widths# #heights# #widths# #heights# #widths# #heights# #widths# #heights# #widths# #heights# q #widths# #heights# #widths# #heights# #widths# #heights# #widths# #heights# #widths# #heights# #widths# #heights# q #widths# #heights# #widths# #heights# #widths# #heights# #widths# #heights# #widths# #heights# #widths# #heights# #widths# #heights# #widths# #heights# 400 100 \" stroke-dasharray=\"#dasharrays#\" style=\"fill:none;stroke:#linecolor#;stroke-width:4;\" stroke-opacity=\"#strokeopacity#\"  />"],
+"line2":["<path d=\"M #widths# #heights# q #widths# #heights# #widths# #heights# #widths# #heights# #widths# #heights# #widths# #heights# #widths# #heights# q #widths# #heights# #widths# #heights# #widths# #heights# #widths# #heights# #widths# #heights# #widths# #heights# q #widths# #heights# #widths# #heights# #widths# #heights# #widths# #heights# #widths# #heights# #widths# #heights# #widths# #heights# #widths# #heights# 400 100 \" stroke-dasharray=\"#dasharrays#\" style=\"fill:none;stroke:#color#;stroke-width:4;\" stroke-opacity=\"#strokeopacity#\"  />"],
 
 
 "curvepoint":"q #dist_half# #h_rel_half# #dist# #h_rel#",
@@ -579,9 +578,9 @@ graphicscorebotbw: {
 
 "rectangles":["<rect x=\"#percentages#\" y=\"#percentages#\" width=\"#tensandhundreds#\" height=\"#tensandhundreds#\"  fill=\"#color#\"  stroke-width=\"0\"  fill-opacity=\"#opacity#\" />",""],
 
-"notes": ["#stems#<ellipse cx=\"#percentages#\" cy=\"#percentages#\" rx=\"20\" ry=\"15\" fill=\"#blackwhite#\"  stroke-width=\"2\" stroke=\"black\"  fill-opacity=\"1.0\"  />"],
+"notes": ["#stems#<ellipse cx=\"#percentages#\" cy=\"#percentages#\" rx=\"20\" ry=\"15\" fill=\"#blackwhite#\"  stroke-width=\"2\" stroke=\"black\"  fill-opacity=\"1.0\"  />",""],
 
-"stems":["<rect x=\"#percentages#\" y=\"#percentages#\" width=\"2\" height=\"60\"  fill=\"#black#\"  stroke-width=\"0\"  fill-opacity=\"1\" />"],
+"stems":["<rect x=\"#percentages#\" y=\"#percentages#\" width=\"2\" height=\"60\"  fill=\"#black#\"  stroke-width=\"0\"  fill-opacity=\"1\" />",""],
 
 "blackwhite": ["black","none"],
 
