@@ -8,7 +8,7 @@ $(document).ready(function() {
         var grammar = tracery.createGrammar(grammars[name]);
         $("#grammar").html(grammar.toText());
 
-        for (var i = 0; i < 10; i++) {
+        for (var i = 0; i < 8; i++) {
 
             var s = grammar.flatten("#origin#");
             console.log(s);
