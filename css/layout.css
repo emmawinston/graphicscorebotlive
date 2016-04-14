@@ -33,6 +33,10 @@
 	background-color: rgb(200, 230, 255);
 } */
 
+body {
+	padding-top: 100px;
+}
+
 .outputSample {
 	width: 50%;
 	overflow: hidden;
