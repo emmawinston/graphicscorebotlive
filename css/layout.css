@@ -47,3 +47,11 @@ body {
 .outputSample svg {
 	margin-top: -120px;
 }
+
+body {
+	font-family: 'baskerville';
+}
+
+h1 {
+	font-size: 5em;
+}
