@@ -13,4 +13,6 @@ Longer-term ideas:
 * A check-box system to define which elements are present in a given score
 
 Particular thanks to Kate Compton and George Buckenham for advice, resources, help with Cheap Bots Done Quick and Tracery, and borrowed code.
- 
+
+View the full-score output [here](https://emmawinston.me/graphicscorebotlive)
+View the real-time version [here](https://emmawinston.me/graphicscorebotlive/temporal) 
