@@ -36,7 +36,7 @@ var grammars = {
         "#preface##staff##clefs##group-path##lines##notes##notes##notes##dynamic##directions##strategies##ending#"
     ],
 
-    "strategies":["","","","","","","","","<text text-anchor=\"end\" fill=\"black\" fill-opacity=\"0.9\" font-size=\"36\" font-family=\"Times\" x=\"40%\" y=\"30%\">#obliquestrategies#</text>"],
+    "strategies":["","","","","","","","","<text text-anchor=\"end\" fill=\"black\" fill-opacity=\"0.9\" font-size=\"36\" font-family=\"Baskerville\" x=\"40%\" y=\"30%\">#obliquestrategies#</text>"],
 
 "preface":"<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 2160 200\" height=\"#baseh#\" width=\"#basew#\">",
 
@@ -343,7 +343,7 @@ var grammars = {
 "blackwhite": ["black","none"],
 
 "directions": [
-     "", "","<text text-anchor=\"end\" fill=\"black\" fill-opacity=\"0.9\" font-size=\"36\" font-family=\"Times\" x=\"#middle#\" y=\"#middle#\">#descriptors#</text>","<text text-anchor=\"end\" fill=\"black\" fill-opacity=\"0.9\" font-size=\"36\" font-family=\"Times\" x=\"#middle#\" y=\"#middle#\">#descriptors#</text><text text-anchor=\"end\" fill=\"black\" fill-opacity=\"0.9\" font-size=\"36\" font-family=\"Times\" x=\"#middle#\" y=\"#percentages#\">#descriptors#</text>"
+     "", "","<text text-anchor=\"end\" fill=\"black\" fill-opacity=\"0.9\" font-size=\"36\" font-family=\"Baskerville\" x=\"#middle#\" y=\"#middle#\">#descriptors#</text>","<text text-anchor=\"end\" fill=\"black\" fill-opacity=\"0.9\" font-size=\"36\" font-family=\"Baskerville\" x=\"#middle#\" y=\"#middle#\">#descriptors#</text><text text-anchor=\"end\" fill=\"black\" fill-opacity=\"0.9\" font-size=\"36\" font-family=\"Baskerville\" x=\"#middle#\" y=\"#percentages#\">#descriptors#</text>"
 ],
 
 "descriptors": [
@@ -730,7 +730,7 @@ graphicscorebotmono: {
         "#preface##staff##clefs##group-path##lines##notes##notes##notes##dynamic##directions##strategies##ending#"
     ],
 
-    "strategies":["","","","","","","","","<text text-anchor=\"end\" fill=\"black\" fill-opacity=\"0.9\" font-size=\"36\" font-family=\"Times\" x=\"40%\" y=\"30%\">#obliquestrategies#</text>"],
+    "strategies":["","","","","","","","","<text text-anchor=\"end\" fill=\"black\" fill-opacity=\"0.9\" font-size=\"36\" font-family=\"Baskerville\" x=\"40%\" y=\"30%\">#obliquestrategies#</text>"],
 
 "preface":"<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 2160 200\" height=\"#baseh#\" width=\"#basew#\">",
 
@@ -1006,7 +1006,7 @@ graphicscorebotmono: {
 "blackwhite": ["black","none"],
 
 "directions": [
-     "", "","<text text-anchor=\"end\" fill=\"black\" fill-opacity=\"0.9\" font-size=\"36\" font-family=\"Times\" x=\"#middle#\" y=\"#middle#\">#descriptors#</text>","<text text-anchor=\"end\" fill=\"black\" fill-opacity=\"0.9\" font-size=\"36\" font-family=\"Times\" x=\"#middle#\" y=\"#middle#\">#descriptors#</text><text text-anchor=\"end\" fill=\"black\" fill-opacity=\"0.9\" font-size=\"36\" font-family=\"Times\" x=\"#middle#\" y=\"#percentages#\">#descriptors#</text>"
+     "", "","<text text-anchor=\"end\" fill=\"black\" fill-opacity=\"0.9\" font-size=\"36\" font-family=\"Baskerville\" x=\"#middle#\" y=\"#middle#\">#descriptors#</text>","<text text-anchor=\"end\" fill=\"black\" fill-opacity=\"0.9\" font-size=\"36\" font-family=\"Baskerville\" x=\"#middle#\" y=\"#middle#\">#descriptors#</text><text text-anchor=\"end\" fill=\"black\" fill-opacity=\"0.9\" font-size=\"36\" font-family=\"Baskerville\" x=\"#middle#\" y=\"#percentages#\">#descriptors#</text>"
 ],
 
 "descriptors": [
@@ -1395,7 +1395,7 @@ graphicscorebotpastel: {
         "#preface##staff##clefs##group-path##lines##notes##notes##notes##dynamic##directions##strategies##ending#"
     ],
 
-    "strategies":["","","","","","","","","<text text-anchor=\"end\" fill=\"black\" fill-opacity=\"0.9\" font-size=\"36\" font-family=\"Times\" x=\"40%\" y=\"30%\">#obliquestrategies#</text>"],
+    "strategies":["","","","","","","","","<text text-anchor=\"end\" fill=\"black\" fill-opacity=\"0.9\" font-size=\"36\" font-family=\"Baskerville\" x=\"40%\" y=\"30%\">#obliquestrategies#</text>"],
 
 "preface":"<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 2160 200\" height=\"#baseh#\" width=\"#basew#\">",
 
@@ -1699,7 +1699,7 @@ graphicscorebotpastel: {
 "blackwhite": ["black","none"],
 
 "directions": [
-     "", "","<text text-anchor=\"end\" fill=\"black\" fill-opacity=\"0.9\" font-size=\"36\" font-family=\"Times\" x=\"#middle#\" y=\"#middle#\">#descriptors#</text>","<text text-anchor=\"end\" fill=\"black\" fill-opacity=\"0.9\" font-size=\"36\" font-family=\"Times\" x=\"#middle#\" y=\"#middle#\">#descriptors#</text><text text-anchor=\"end\" fill=\"black\" fill-opacity=\"0.9\" font-size=\"36\" font-family=\"Times\" x=\"#middle#\" y=\"#percentages#\">#descriptors#</text>"
+     "", "","<text text-anchor=\"end\" fill=\"black\" fill-opacity=\"0.9\" font-size=\"36\" font-family=\"Baskerville\" x=\"#middle#\" y=\"#middle#\">#descriptors#</text>","<text text-anchor=\"end\" fill=\"black\" fill-opacity=\"0.9\" font-size=\"36\" font-family=\"Baskerville\" x=\"#middle#\" y=\"#middle#\">#descriptors#</text><text text-anchor=\"end\" fill=\"black\" fill-opacity=\"0.9\" font-size=\"36\" font-family=\"Baskerville\" x=\"#middle#\" y=\"#percentages#\">#descriptors#</text>"
 ],
 
 "descriptors": [
