@@ -8,8 +8,8 @@ Graphic Score Bot was born from a [Twitter bot](http://twitter.com/graphicscoreb
 
 Longer-term ideas:
 
-<s>* A temporal/slideshow-style system for performances in which the duration is also determined by the bot</s> DONE
-<s>* An easier system for changing between colour schemes</s> DONE
+* <s>A temporal/slideshow-style system for performances in which the duration is also determined by the bot</s> DONE
+* <s>An easier system for changing between colour schemes</s> DONE
 * A check-box system to define which elements are present in a given score
 
 Particular thanks to Kate Compton and George Buckenham for advice, resources, help with Cheap Bots Done Quick and Tracery, and borrowed code.
