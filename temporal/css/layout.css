@@ -41,7 +41,7 @@ body {
 	width: 80%;
 	display: block;
 	overflow: hidden;
-	margin: 0 auto;
+	margin: 140px auto 0 auto;
 } 
 
 .outputSample svg {
