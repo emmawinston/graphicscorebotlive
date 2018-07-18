@@ -12,7 +12,7 @@ Longer-term ideas:
 * <s>An easier system for changing between colour schemes</s> DONE
 * A check-box system to define which elements are present in a given score
 
-Particular thanks to Kate Compton and George Buckenham for advice, resources, help with Cheap Bots Done Quick and Tracery, and borrowed code.
+Particular thanks to Kate Compton and v21 for advice, resources, help with Cheap Bots Done Quick and Tracery, and borrowed code.
 
 View the full-score output [here](https://emmawinston.me/graphicscorebotlive)
 
